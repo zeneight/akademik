@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Design By Agung Priambada (ZENEIGHT) */
+
+/*atur tulisan body*/
+body {
+	font: 100% "Century Gothic";
+	font-size: 16px;
+	margin: 30;
+	padding: 0;
+	text-align: justify;
+	color: white;
+	background-color:#000;
+}
+
+#bg{
+	background:url(../image/bg.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+#bg0{
+	background:url(../image/bg0.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+#bg3{
+	background:url(../image/bg3.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+#bg2{
+	background:url(../image/bg2.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+#bg4{
+	background:url(../image/bg4.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+#bg5{
+	background:url(../image/bg5.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+#bg6{
+	background:url(../image/bg6.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+#bg7{
+	background:url(../image/bg7.jpg);
+	background-position:bottom;
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+body a {
+	text-decoration: none;
+	color:#0F0
+}
+
+body z {
+	color:#F00;
+}
+
+/*atur logo*/
+#logo {
+	background: url(../image/logo.png) no-repeat;
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+
+#logo form { display:inline ; }
+
+
+/*atur form select*/
+.select {
+  border: 0px;
+  position: relative;
+  width: 150px;
+  height: 23;
+  padding: 1px;
+  color:#0F0;
+  font-size:14px;
+  font-family:'Lucida Casual', 'Comic Sans MS';
+  background: url(../image/form.png) no-repeat;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/*atur form input*/
+.inputbox {
+	color: #0F0;
+	border: 0px;
+	background-color: transparent; 
+	position: absolute;
+	top: 1px;
+	left: 5px;
+	width: 138px;
+	height: 22px; 
+	padding:1px;
+	font-size:14px;
+	font-family:'Lucida Casual', 'Comic Sans MS';
+}
+
+.input_submit {
+	border: 0px;
+	background-color: transparent;
+	position:relative;
+	top: 0px;
+	width: 200px;
+	height: 35px;
+}
+
+#inputwrapper {
+	width:150px; 
+	height:23px;
+	background-image:url(../image/form.png);
+	background-repeat:no-repeat; 
+	padding:0px;
+	margin:0px;
+	position:relative; 
+}
+ 
+#inputwrapper form { display:inline ; }
+
+/*search box*/
+#searchwrapper {
+	width:150px; 
+	height:23px;
+	background-image:url(../image/form.png);
+	background-repeat:no-repeat; 
+	padding:0px;
+	margin:0px;
+	position:relative;
+	bottom: 5px; 
+}
+ 
+#searchwrapper form { display:inline ; }
+
+.searchbox {
+	color: #FFF;
+	border: 0px;
+	background-color: transparent;
+	position: absolute;
+	top: 0px;
+	left: 6px;
+	width: 119px;
+	height: 22px;
+}
+ 
+.searchbox_submit {
+	border: 0px;
+	background-color: transparent;
+	position: absolute;
+	top: 0px;
+	left: 121px;
+	width: 27px;
+	height: 24px;
+}
+
+#footer p{
+	margin: 0; 
+	padding: 10px 0;
+	text-align:center;
+	font-size:12px;
+}
